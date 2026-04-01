@@ -23,11 +23,12 @@ This repository implements a full quantitative long/short equities workflow:
 
 4. **Portfolio construction ([04_portfolio_construction.ipynb](04_portfolio_construction.ipynb))**
 
-- Combines factor and ML ranks into a long/short candidate table.
-- Defines initial candidate weights/exposures and risk context.
+- Combines factor and ML ranks into a long vs basket-of-shorts candidate table.
+- Defines portfolio-level candidate weights/exposures and risk context.
 
 5. **Pair screening and backtest ([05_backtesting.ipynb](05_backtesting.ipynb))**
 
+- Moves from basket analysis to a specific single-stock pair based on best performance.
 - Screens short candidates against GEVO using always-in spread Sharpe (primary).
 - Chooses the best short, optimises long/short weight split, and evaluates timing signals.
 - Saves artifacts such as `data/pair_screening.parquet`, `data/best_pair_bt.parquet`, and `data/best_pair_meta.json`.
@@ -37,7 +38,7 @@ This repository implements a full quantitative long/short equities workflow:
 - Consolidates outputs into visuals/tables for communication.
 - Exports report artifacts to `outputs/` (for example `full_report.html`, `pitch_table.csv`).
 
-In short, the pipeline goes from raw market/fundamental data to a tested, risk-aware long/short pair recommendation with reproducible outputs.
+In short, notebooks 01-04 build and evaluate a long vs short-basket portfolio, and notebook 05 narrows this to the best-performing specific long/short stock pair with reproducible outputs.
 
 ## Outcome Summary
 
