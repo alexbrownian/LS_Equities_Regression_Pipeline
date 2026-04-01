@@ -37,6 +37,7 @@ This repository implements a full quantitative long/short equities workflow:
 
 - Consolidates outputs into visuals/tables for communication.
 - Exports report artifacts to `outputs/` (for example `full_report.html`, `pitch_table.csv`).
+- Investor-facing summary: [GEVO_PDM_Investor_Report.md](GEVO_PDM_Investor_Report.md).
 
 In short, notebooks 01-04 build and evaluate a long vs short-basket portfolio, and notebook 05 narrows this to the best-performing specific long/short stock pair with reproducible outputs.
 
@@ -57,3 +58,5 @@ From the latest generated backtest artifacts:
 - Current z-score / signal snapshot: **2.2124 / -1 (short spread)**
 
 In short, the current pipeline identifies a statistically preferred long/short pair and sizing rule, with modest positive risk-adjusted performance in the always-in spread and weaker incremental value from timing via z-score triggers in this run.
+
+For a concise investor-oriented writeup, see [GEVO_PDM_Investor_Report.md](GEVO_PDM_Investor_Report.md).
