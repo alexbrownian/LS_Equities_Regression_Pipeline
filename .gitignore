@@ -27,7 +27,6 @@ env/
 
 # Notebook/report generated artifacts
 outputs/*.html
-outputs/*.png
 
 # Backtest generated artifacts
 data/pair_screening.parquet
