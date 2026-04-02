@@ -17,16 +17,8 @@ SHORT_CANDIDATES = [              # Basket of short candidates
     "GOEV",   # Canoo - near-zero revenue, serial dilution, going-concern
     "ALTO",   # Alto Ingredients - commodity ethanol, zero carbon differentiation
     "REI",    # Ring Energy - leveraged conventional oil, no transition optionality
-    "PARR",   # Par Pacific - high-cost refining, no SAF/renewable conversion
-    "PDM",    # Piedmont Office - suburban office REIT, structural occupancy impairment
-    "VNO",    # Vornado Realty - NYC office heavy, suspended dividend, debt wall
-    "CLPR",   # Clipper Realty - high leverage, little FCF coverage
-    "BBWI",   # Bath & Body Works - over-stored, declining brand relevance
+    "PARR",   # Par Pacific - high-cost refining, no SAF/renewable conversionn
     "AFRM",   # Affirm - BNPL credit losses accelerate in any consumer softening
-    "UPST",   # Upstart - AI lending model unproven through full credit cycle
-    "BBAI",   # BigBear.ai - tiny revenue, SPAC goodwill, insider selling
-    "SOUN",   # SoundHound AI - 15-20x forward sales, no profitability path
-    "PACB",   # Pacific Biosciences - perpetual cash burn, Illumina competition
     "GPRE",   # Green Plains - ethanol price taker, no CCS or carbon differentiation
     "PLUG",   # Plug Power - hydrogen hype, persistent negative gross margins
     "AMTX",   # Aemetis - pre-profit biofuel, inferior assets vs Gevo, missed milestones
